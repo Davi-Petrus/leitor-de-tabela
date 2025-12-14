@@ -17,3 +17,53 @@ h1 {
 h2 {
   margin-top: 0;
 }
+table.principal {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table.principal th,
+table.principal td {
+  border: 1px solid #000;
+  padding: 6px;
+}
+
+/* Cabeçalhos */
+.cabecalho-principal th {
+  background-color: #f5b000;
+}
+
+.cabecalho-secundario th {
+  background-color: #ffd966;
+}
+
+/* Coluna Data */
+td.data {
+  font-weight: bold;
+}
+
+/* Meses */
+.mes-1 {
+  background-color: #fff2cc;
+}
+
+.mes-2 {
+  background-color: #fce5cd;
+}
+
+.mes-3 {
+  background-color: #d9eaf7;
+}
+
+/* Linha especial (Assembleia / Congresso) */
+tr.especial td {
+  background-color: #bdd7ee;
+  font-weight: bold;
+}
+
+/* Rodapé */
+tr.rodape td {
+  background-color: #f5b000;
+  font-weight: bold;
+}
