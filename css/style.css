@@ -1,69 +1,84 @@
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
-}
-
-section {
-  border: 1px solid #ccc;
-  padding: 15px;
-  margin-bottom: 20px;
-}
-
-h1 {
-  text-align: center;
-}
-
-h2 {
-  margin-top: 0;
-}
 table.principal {
   width: 100%;
   border-collapse: collapse;
   text-align: center;
+  font-size: 14px;
 }
 
-table.principal th,
-table.principal td {
+.principal th,
+.principal td {
   border: 1px solid #000;
   padding: 6px;
 }
 
-/* Cabeçalhos */
+/* TÍTULO */
+.titulo th {
+  background-color: #f1a900;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* CABEÇALHOS */
 .cabecalho-principal th {
-  background-color: #f5b000;
+  background-color: #f1a900;
 }
 
 .cabecalho-secundario th {
   background-color: #ffd966;
 }
 
-/* Coluna Data */
+/* DATA */
 td.data {
+  width: 110px;
   font-weight: bold;
+  background-color: #fff;
 }
 
-/* Meses */
-.mes-1 {
-  background-color: #fff2cc;
+/* COLUNA DA BARRA */
+th.barra,
+td.barra {
+  width: 12px;
+  padding: 0;
 }
 
-.mes-2 {
-  background-color: #fce5cd;
+/* CORES DA BARRA */
+.barra.amarelo {
+  background-color: #fff200;
 }
 
-.mes-3 {
-  background-color: #d9eaf7;
+.barra.vermelho {
+  background-color: #ff0000;
 }
 
-/* Linha especial (Assembleia / Congresso) */
+.barra.azul {
+  background-color: #9dc3e6;
+}
+
+/* LINHAS */
+.linha-azul td {
+  background-color: #cfe2f3;
+}
+
+/* LINHA ESPECIAL */
 tr.especial td {
   background-color: #bdd7ee;
   font-weight: bold;
+  font-size: 16px;
 }
 
-/* Rodapé */
+/* RODAPÉ */
 tr.rodape td {
-  background-color: #f5b000;
+  background-color: #f1a900;
   font-weight: bold;
 }
+
+/* CONTENTEDITABLE */
+td[contenteditable] {
+  background-color: #fff;
+  cursor: text;
+}
+
+td[contenteditable]:focus {
+  outline: 2px solid #4a90e2;
+}
+
