@@ -1,8 +1,8 @@
 table.principal {
   width: 100%;
   border-collapse: collapse;
-  text-align: center;
   font-size: 14px;
+  text-align: center;
 }
 
 .principal th,
@@ -12,73 +12,54 @@ table.principal {
 }
 
 /* TÍTULO */
-.titulo th {
-  background-color: #f1a900;
-  font-weight: bold;
+.titulo {
+  background-color: #FFC000;
   font-size: 16px;
+  font-weight: bold;
 }
 
 /* CABEÇALHOS */
-.cabecalho-principal th {
-  background-color: #f1a900;
-}
-
-.cabecalho-secundario th {
-  background-color: #ffd966;
-}
-
-/* DATA */
-td.data {
-  width: 110px;
+.cabecalho {
+  background-color: #FFC000;
   font-weight: bold;
-  background-color: #fff;
-}
-
-/* COLUNA DA BARRA */
-th.barra,
-td.barra {
-  width: 12px;
-  padding: 0;
-}
-
-/* CORES DA BARRA */
-.barra.amarelo {
-  background-color: #fff200;
-}
-
-.barra.vermelho {
-  background-color: #ff0000;
-}
-
-.barra.azul {
-  background-color: #9dc3e6;
 }
 
 /* LINHAS */
-.linha-azul td {
-  background-color: #cfe2f3;
+.linha.branca td {
+  background-color: #ffffff;
 }
 
-/* LINHA ESPECIAL */
-tr.especial td {
-  background-color: #bdd7ee;
-  font-weight: bold;
-  font-size: 16px;
+.linha.azul td {
+  background-color: #B8CCE4;
 }
+
+/* COLUNA DATA */
+.dia {
+  width: 90px;
+  font-weight: bold;
+}
+
+.data {
+  width: 110px;
+  font-weight: bold;
+}
+
+/* CORES DOS MESES */
+.mes1 { background-color: #FFFF00; }
+.mes2 { background-color: #FE0000; color: #fff; }
+.mes3 { background-color: #9FC5E9; }
 
 /* RODAPÉ */
-tr.rodape td {
-  background-color: #f1a900;
+.rodape {
+  background-color: #FDBF00;
   font-weight: bold;
 }
 
 /* CONTENTEDITABLE */
 td[contenteditable] {
-  background-color: #fff;
   cursor: text;
 }
 
 td[contenteditable]:focus {
   outline: 2px solid #4a90e2;
 }
-
