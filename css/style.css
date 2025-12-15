@@ -1,3 +1,4 @@
+/* TABELA */
 table.principal {
   width: 100%;
   border-collapse: collapse;
@@ -14,8 +15,8 @@ table.principal {
 /* TÍTULO */
 .titulo {
   background-color: #FFC000;
-  font-size: 16px;
   font-weight: bold;
+  font-size: 16px;
 }
 
 /* CABEÇALHOS */
@@ -33,7 +34,7 @@ table.principal {
   background-color: #B8CCE4;
 }
 
-/* COLUNA DATA */
+/* COLUNAS DATA */
 .dia {
   width: 90px;
   font-weight: bold;
@@ -44,10 +45,10 @@ table.principal {
   font-weight: bold;
 }
 
-/* CORES DOS MESES */
-.mes1 { background-color: #FFFF00; }
-.mes2 { background-color: #FE0000; color: #fff; }
-.mes3 { background-color: #9FC5E9; }
+/* CORES DE MÊS (JS VAI APLICAR) */
+.data.mes1 { background-color: #FFFF00; }
+.data.mes2 { background-color: #FE0000; color: #fff; }
+.data.mes3 { background-color: #9FC5E9; }
 
 /* RODAPÉ */
 .rodape {
@@ -55,7 +56,7 @@ table.principal {
   font-weight: bold;
 }
 
-/* CONTENTEDITABLE */
+/* EDIÇÃO */
 td[contenteditable] {
   cursor: text;
 }
@@ -63,3 +64,4 @@ td[contenteditable] {
 td[contenteditable]:focus {
   outline: 2px solid #4a90e2;
 }
+
