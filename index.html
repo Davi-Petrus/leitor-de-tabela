@@ -29,105 +29,72 @@
 
   <!-- TABELA PRINCIPAL -->
 <section id="tabela-principal">
-  <h2>Tabela Principal</h2>
-
   <table class="principal">
     <thead>
-      <tr class="titulo">
-        <th colspan="6">Designações de Microfones Volantes e Indicadores</th>
+      <!-- LINHA 1 -->
+      <tr>
+        <th colspan="6" class="titulo">
+          Designações de Microfones Volantes e Indicadores
+        </th>
       </tr>
-      <tr class="cabecalho-principal">
-        <th rowspan="2">DATA</th>
-        <th rowspan="2" class="barra"></th>
-        <th colspan="2">SISTEMA DE SOM</th>
-        <th colspan="2">INDICADORES</th>
+
+      <!-- LINHA 2.1 -->
+      <tr>
+        <th colspan="2" rowspan="2" class="cabecalho">DATA</th>
+        <th colspan="2" class="cabecalho">SISTEMA DE SOM</th>
+        <th colspan="2" class="cabecalho">INDICADORES</th>
       </tr>
-      <tr class="cabecalho-secundario">
-        <th>MESA DE SOM</th>
-        <th>MICROFONE VOLANTE</th>
-        <th>INDICADOR</th>
-        <th>INDICADOR DE ENTRADA</th>
+
+      <!-- LINHA 2.2 -->
+      <tr>
+        <th class="cabecalho">MESA DE SOM</th>
+        <th class="cabecalho">MICROFONE VOLANTE</th>
+        <th class="cabecalho">INDICADOR</th>
+        <th class="cabecalho">INDICADOR DE ENTRADA</th>
       </tr>
     </thead>
 
     <tbody>
-      <!-- LINHAS NORMAIS -->
-      <tr>
-        <td class="data" contenteditable="false">—</td>
-        <td class="barra amarelo"></td>
+      <!-- EXEMPLO DE BLOCO (linha 3) -->
+      <tr class="linha branca">
+        <td rowspan="2" class="dia" contenteditable="false">Terça</td>
+        <td rowspan="2" class="data mes1" contenteditable="false">15/12/25</td>
+
+        <td rowspan="2" contenteditable></td>
         <td contenteditable></td>
-        <td contenteditable></td>
-        <td contenteditable></td>
+        <td rowspan="2" contenteditable></td>
+        <td rowspan="2" contenteditable></td>
+      </tr>
+
+      <tr class="linha branca">
         <td contenteditable></td>
       </tr>
 
-      <tr class="linha-azul">
-        <td class="data" contenteditable="false">—</td>
-        <td class="barra amarelo"></td>
+      <!-- LINHA 4 -->
+      <tr class="linha azul">
+        <td rowspan="2" class="dia" contenteditable="false">Domingo</td>
+        <td rowspan="2" class="data mes1" contenteditable="false">18/12/25</td>
+
+        <td rowspan="2" contenteditable></td>
         <td contenteditable></td>
-        <td contenteditable></td>
-        <td contenteditable></td>
+        <td rowspan="2" contenteditable></td>
+        <td rowspan="2" contenteditable></td>
+      </tr>
+
+      <tr class="linha azul">
         <td contenteditable></td>
       </tr>
 
-      <!-- BLOCO VERMELHO (EX: CONGRESSO) -->
-      <tr>
-        <td class="data" contenteditable="false">—</td>
-        <td class="barra vermelho"></td>
-        <td contenteditable></td>
-        <td contenteditable></td>
-        <td contenteditable></td>
-        <td contenteditable></td>
-      </tr>
-
-      <tr class="linha-azul">
-        <td class="data" contenteditable="false">—</td>
-        <td class="barra vermelho"></td>
-        <td contenteditable></td>
-        <td contenteditable></td>
-        <td contenteditable></td>
-        <td contenteditable></td>
-      </tr>
-
-      <!-- ASSEMBLEIA -->
-      <tr class="especial">
-        <td colspan="6">SEMANA DA ASSEMBLEIA</td>
-      </tr>
-
-      <!-- MÊS 3 -->
-      <tr>
-        <td class="data" contenteditable="false">—</td>
-        <td class="barra azul"></td>
-        <td contenteditable></td>
-        <td contenteditable></td>
-        <td contenteditable></td>
-        <td contenteditable></td>
-      </tr>
-
-      <tr class="linha-azul">
-        <td class="data" contenteditable="false">—</td>
-        <td class="barra azul"></td>
-        <td contenteditable></td>
-        <td contenteditable></td>
-        <td contenteditable></td>
-        <td contenteditable></td>
-      </tr>
+      <!-- (linhas 5 até 26 seguem o mesmo padrão) -->
     </tbody>
 
+    <!-- LINHA 27 -->
     <tfoot>
-      <tr class="rodape">
-        <td colspan="6" contenteditable>
-          Congregação Manôa 136440/AM2.
+      <tr>
+        <td colspan="6" class="rodape" contenteditable>
+          Congregação Manôa 136440/AM2
         </td>
       </tr>
     </tfoot>
   </table>
 </section>
-
-    </tfoot>
-  </table>
-</section>
-
-  <script src="js/script.js"></script>
-</body>
-</html>
